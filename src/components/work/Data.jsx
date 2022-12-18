@@ -125,7 +125,7 @@ export const projectsData = [
     title: "Portfolio Website",
     description: "HTML CSS JS REACT RWD",
     category: "web",
-    link: "https://github.com/finnzzzz/Omifood-pratice",
+    link: "https://github.com/finnzzzz/PortfolioWeb",
   },
 ];
 
