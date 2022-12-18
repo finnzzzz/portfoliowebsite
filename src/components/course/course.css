@@ -1,0 +1,115 @@
+.course__container {
+  max-width: 768px;
+}
+
+.course__tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--mb-2);
+}
+
+.course__button {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+  margin: 0 var(--mb-1);
+  cursor: pointer;
+}
+
+.course__button:hover {
+  color: var(--title-color-dark);
+}
+
+.course__icon {
+  font-size: 1.8rem;
+  margin-right: var(--mb-0-25);
+}
+
+.course__active {
+  color: var(--title-color-dark);
+}
+
+.course__sections {
+  display: grid;
+  grid-template-columns: 0.5fr;
+  justify-content: center;
+}
+
+.course__content {
+  display: none;
+}
+
+.course__content-active {
+  display: block;
+}
+
+.course__data {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 200px max-content 200px;
+  column-gap: 1rem;
+}
+
+.course__title {
+  font-size: var(--noramal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.course__subtitle {
+  display: inline-block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.course__calender {
+  font-size: var(--small-font-size);
+}
+
+.course__rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+}
+
+.course__line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: var(--text-color);
+  transform: translate(6px, -7px);
+}
+
+/*----------- BREAKPOINTS----------- */
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .course__container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .course__container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 576px) {
+  .course__sections {
+    grid-template-columns: initial;
+  }
+
+  .course__button {
+    margin: 0 var(--mb-0-75);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .course__data {
+    gap: 0.5rem;
+  }
+}
