@@ -122,7 +122,7 @@ export const projectsData = [
   {
     id: 15,
     image: work_web8,
-    title: "Portfolio Website",
+    title: "Portfolio",
     description: "HTML CSS JS REACT RWD",
     category: "web",
     link: "https://github.com/finnzzzz/PortfolioWeb",
