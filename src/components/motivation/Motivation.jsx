@@ -61,7 +61,7 @@ const Motivation = () => {
                   {/* <i className="uil uil-check-circle motivation__modal-icon"></i> */}
                   <p className="motivation__modal-info">
                     <i className="uil uil-angle-double-right motivation__modal-icon"></i>
-                    　　近來特殊形式的網頁發展越來越熱絡，隨著Web3.0、元宇宙等概念的興起，更加大了這方面需求與應用，如互動式、沉浸式、3D、VR等技術，而本身對於區塊鏈、NFT、網路科技等相關領域富有興趣，望工作內容能與相關技術發展有所關聯。
+                    　　近來特殊形式的網頁發展越來越熱絡，隨著Web3.0、元宇宙等概念的興起，更加大了這方面需求與應用，如互動式、沉浸式、3D、VR等技術，而本身對於區塊鏈、NFT、網路科技等相關領域富有興趣，期望工作內容能與相關技術發展有所關聯。
                   </p>
                 </li>
               </ul>
@@ -195,7 +195,7 @@ const Motivation = () => {
                     　　期望能夠加入AppWorks
                     School的培訓營，藉由同儕互助的關係，提早
                     <b>養成團隊溝通協作的經驗</b>
-                    ，並且配合專業且循序的目標制定，訓練自己的自律性與扛壓性，
+                    ，並且配合專業且循序的目標制定，訓練自己的自律性與抗壓性，
                     <b>提升解決問題與提出問題的能力</b>
                     ，以一定要成為前端工程師為目標前進
                   </p>
