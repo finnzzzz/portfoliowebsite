@@ -69,10 +69,34 @@
 
 @media screen and (max-width: 576px) {
   .reason__container {
+    height: 440px;
+    width: initial;
+  }
+  .reason__card {
+    padding: 1rem 1.25rem;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .reason__container {
+    height: 550px;
     width: initial;
   }
 
   .reason__card {
-    padding: 1.25rem 1.5rem;
+    overflow: scroll;
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .reason__container {
+    height: 550px;
+    width: initial;
+  }
+
+  .reason__card {
+      overflow: scroll;
+    padding: 1.25rem 0.5rem;
   }
 }
