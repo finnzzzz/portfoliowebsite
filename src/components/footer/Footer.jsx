@@ -44,10 +44,6 @@ const Footer = () => {
             <i class="uil uil-github"></i>
           </a>
         </div>
-
-        <span className="footer__copy">
-          {/* &#169; Crypticalcoder. All rigths reserved */}
-        </span>
       </div>
     </footer>
   );
